@@ -1,0 +1,8 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+mu, sigma = 2, 0.5
+v = np.random.normal(nu, signma, 10000)
+
+plt.hist(v, bins=50, normed=1)
+plt.show()
